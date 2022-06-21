@@ -1,2 +1,0 @@
-# mierea-albinei
-Cake Shop
