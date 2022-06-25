@@ -25,33 +25,16 @@ const Header = () => {
 
   return (
     <header>
-      <div className={s.containerHeader} id="#containerHeader">
-        <div
-          onClick={menuClick}
-          className={s.hamburgerMenu}
-          id="#hamburgerMenu"
-        >
-          <AiOutlineMenu />
-        </div>
+      <section className={s.headerSection}>
+        <div className={s.containerHeader} id="#containerHeader">
+          <div
+            onClick={menuClick}
+            className={s.hamburgerMenu}
+            id="#hamburgerMenu"
+          >
+            <AiOutlineMenu />
+          </div>
 
-        <a href="tel:+40747788940" id="#tel">
-          +40747788940
-        </a>
-        <a href="" id="#about">
-          About
-        </a>
-        <a href="" id="#delivery">
-          Delivery
-        </a>
-        <a href="" id="#locations">
-          Locations
-        </a>
-        <a href="" id="#contact">
-          Contact
-        </a>
-      </div>
-      {showMenu === true ? (
-        <div className={s.mobileMenu}>
           <a href="tel:+40747788940" id="#tel">
             +40747788940
           </a>
@@ -68,7 +51,26 @@ const Header = () => {
             Contact
           </a>
         </div>
-      ) : null}
+        {showMenu === true ? (
+          <div className={s.mobileMenu}>
+            <a href="tel:+40747788940" id="#tel">
+              +40747788940
+            </a>
+            <a href="" id="#about">
+              About
+            </a>
+            <a href="" id="#delivery">
+              Delivery
+            </a>
+            <a href="" id="#locations">
+              Locations
+            </a>
+            <a href="" id="#contact">
+              Contact
+            </a>
+          </div>
+        ) : null}
+      </section>
     </header>
   );
 };

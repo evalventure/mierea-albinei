@@ -25,35 +25,107 @@ const Shop = () => {
         </div>
         <div className={s.productsContainer}>
           <div className={s.productDiv}>
-            <div className={s.productPic}></div>
+            <div className={s.productPicDiv}>
+              <div className={s.productPic}></div>
+            </div>
+            <div className={s.productInfoDiv}>
+              <p className={s.productInfo}>i</p>
+            </div>
+            <div className={s.productDetailsContainer}>
+              <p>5.00$</p>
+              <p>300g</p>
+            </div>
             <h3>Product Name</h3>
           </div>
           <div className={s.productDiv}>
-            <div className={s.productPic}></div>
+            <div className={s.productPicDiv}>
+              <div className={s.productPic}></div>
+            </div>
+            <div className={s.productInfoDiv}>
+              <p className={s.productInfo}>i</p>
+            </div>
+            <div className={s.productDetailsContainer}>
+              <p>5.00$</p>
+              <p>300g</p>
+            </div>
             <h3>Product Name</h3>
           </div>
           <div className={s.productDiv}>
-            <div className={s.productPic}></div>
+            <div className={s.productPicDiv}>
+              <div className={s.productPic}></div>
+            </div>
+            <div className={s.productInfoDiv}>
+              <p className={s.productInfo}>i</p>
+            </div>
+            <div className={s.productDetailsContainer}>
+              <p>5.00$</p>
+              <p>300g</p>
+            </div>
             <h3>Product Name</h3>
           </div>
           <div className={s.productDiv}>
-            <div className={s.productPic}></div>
+            <div className={s.productPicDiv}>
+              <div className={s.productPic}></div>
+            </div>
+            <div className={s.productInfoDiv}>
+              <p className={s.productInfo}>i</p>
+            </div>
+            <div className={s.productDetailsContainer}>
+              <p>5.00$</p>
+              <p>300g</p>
+            </div>
             <h3>Product Name</h3>
           </div>
           <div className={s.productDiv}>
-            <div className={s.productPic}></div>
+            <div className={s.productPicDiv}>
+              <div className={s.productPic}></div>
+            </div>
+            <div className={s.productInfoDiv}>
+              <p className={s.productInfo}>i</p>
+            </div>
+            <div className={s.productDetailsContainer}>
+              <p>5.00$</p>
+              <p>300g</p>
+            </div>
             <h3>Product Name</h3>
           </div>
           <div className={s.productDiv}>
-            <div className={s.productPic}></div>
+            <div className={s.productPicDiv}>
+              <div className={s.productPic}></div>
+            </div>
+            <div className={s.productInfoDiv}>
+              <p className={s.productInfo}>i</p>
+            </div>
+            <div className={s.productDetailsContainer}>
+              <p>5.00$</p>
+              <p>300g</p>
+            </div>
             <h3>Product Name</h3>
           </div>
           <div className={s.productDiv}>
-            <div className={s.productPic}></div>
+            <div className={s.productPicDiv}>
+              <div className={s.productPic}></div>
+            </div>
+            <div className={s.productInfoDiv}>
+              <p className={s.productInfo}>i</p>
+            </div>
+            <div className={s.productDetailsContainer}>
+              <p>5.00$</p>
+              <p>300g</p>
+            </div>
             <h3>Product Name</h3>
           </div>
           <div className={s.productDiv}>
-            <div className={s.productPic}></div>
+            <div className={s.productPicDiv}>
+              <div className={s.productPic}></div>
+            </div>
+            <div className={s.productInfoDiv}>
+              <p className={s.productInfo}>i</p>
+            </div>
+            <div className={s.productDetailsContainer}>
+              <p>5.00$</p>
+              <p>300g</p>
+            </div>
             <h3>Product Name</h3>
           </div>
         </div>
