@@ -3,14 +3,14 @@ import "./App.css";
 
 import Header from "./Components/Header/Header";
 import LandingSection from "./Components/LandingSection/LandingSection";
-import Shop from "./Components/Shop/Shop";
+import Products from "./Components/Products/Products";
 
 function App() {
   return (
     <>
       <Header />
       <LandingSection />
-      <Shop />
+      <Products />
     </>
   );
 }

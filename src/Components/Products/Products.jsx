@@ -1,11 +1,11 @@
 import React from "react";
-import s from "./Shop.module.css";
+import s from "./Products.module.css";
 import { BsClockHistory } from "react-icons/bs";
 
 const Shop = () => {
   return (
     <>
-      <section className={s.shopSection}>
+      <section className={s.productsSection}>
         <div className={s.favouritesContainer}>
           <div className={s.filterContainer}>
             <h3>Filter by:</h3>
