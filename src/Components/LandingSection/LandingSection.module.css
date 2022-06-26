@@ -65,10 +65,12 @@
 }
 
 .locationContainer a {
+  display: flex;
+  align-items: center;
   color: var(--color-black);
   text-decoration: none;
   /* padding: 0 12px; */
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .location svg {
@@ -82,11 +84,91 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 98px;
+  max-width: 170px;
 }
 
 .seeMoreContainer a {
+  display: flex;
+  align-items: center;
   color: var(--color-black);
   text-decoration: none;
   font-size: 18px;
+}
+
+.seeMore p {
+  max-width: 100px;
+  padding-right: 10px;
+}
+
+.seeMore svg {
+  width: 32px;
+  height: 32px;
+}
+
+@media all and (max-width: 800px) {
+  .textContainer {
+    padding-top: 50px;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .textContainer h1 {
+    font-size: 50px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .addressContainer {
+    max-width: 150px;
+  }
+
+  .location {
+    display: flex;
+    align-items: center;
+  }
+
+  .seeMoreContainer {
+    max-width: 150px;
+  }
+
+  .seeMore {
+    display: flex;
+    align-items: center;
+  }
+
+  .seeMore p {
+    padding-left: 10px;
+  }
+
+  .seeMore svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .locationContainer a {
+    font-size: 24px;
+  }
+
+  .buttonContainer button {
+    width: 160px;
+    height: 60px;
+    font-size: 22px;
+  }
+  .textContainer h1 {
+    font-size: 60px;
+    line-height: 64px;
+  }
+
+  .textContainer p {
+    font-size: 22px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .textContainer h1 {
+    font-size: 80px;
+    line-height: 82px;
+  }
 }

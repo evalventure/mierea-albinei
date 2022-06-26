@@ -30,7 +30,7 @@ const LandingSection = () => {
           </div>
           <div className={s.seeMoreContainer}>
             <a href="#" className={s.seeMore}>
-              See how we make it
+              <p>See how we make it</p>
               <MdSlowMotionVideo />
             </a>
           </div>

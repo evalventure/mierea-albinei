@@ -7,20 +7,25 @@ const Shop = () => {
     <>
       <section className={s.productsSection}>
         <div className={s.favouritesContainer}>
-          <div className={s.filterContainer}>
-            <h3>Filter by:</h3>
-            <p>Daily items</p>
-            <p>Pastry</p>
-            <p>Specialty</p>
+          <div className={s.titleDiv}>
+            <h1>Customer Favourites</h1>
           </div>
-          <h1>Customer Favourites</h1>
-          <div className={s.infoContainer}>
-            <p>
-              <BsClockHistory className="clock-icon" />
-            </p>
-            <p className="info-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </p>
+          <div className={s.filterInfoContainer}>
+            <div className={s.filterContainer}>
+              <h3>Filter by:</h3>
+              <p>Daily items</p>
+              <p>Pastry</p>
+              <p>Specialty</p>
+            </div>
+
+            <div className={s.infoContainer}>
+              <p>
+                <BsClockHistory className="clock-icon" />
+              </p>
+              <p className={s.infoText}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              </p>
+            </div>
           </div>
         </div>
         <div className={s.productsContainer}>

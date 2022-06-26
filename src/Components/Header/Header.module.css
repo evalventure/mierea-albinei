@@ -2,13 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--color-white);
 }
 
 header {
   display: flex;
   justify-content: center;
   padding: 24px 48px;
+  position: relative;
+}
+
+.headerSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .containerHeader {
@@ -17,7 +23,7 @@ header {
   align-items: center;
   max-width: 1200px;
   padding-top: 24px;
-  position: relative;
+  width: 100%;
   padding: 0;
   /* background-color: red; */
 }
@@ -39,10 +45,10 @@ header {
   align-items: center;
   position: absolute;
   top: 50px;
-  margin: 12px 12px;
+  padding: 12px 12px;
   background: var(--color-gray);
   width: 100%;
-  box-shadow: 5px 5px 10px var(--color-gray);
+  box-shadow: 5px 5px 10px var(--color-white-gray);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -50,8 +56,11 @@ header {
 .mobileMenu a {
   margin: 10px 10px;
   text-decoration: none;
-  color: var(--color-white);
-  background-color: var(--color-gray);
+  color: var(--color-black);
+  background-color: none;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 600;
 }
 
 @media all and (max-width: 800px) {
@@ -63,10 +72,35 @@ header {
     display: flex;
     cursor: pointer;
   }
+
+  .containerHeader {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .hamburgerMenu svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .mobileMenu {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 @media all and (min-width: 800px) {
   .mobileMenu {
     display: none;
+  }
+
+  .containerHeader a {
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .containerHeader a {
+    font-size: 24px;
+    font-weight: 500;
   }
 }
