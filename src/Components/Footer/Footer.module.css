@@ -1,0 +1,183 @@
+.footerSection {
+  padding: 24px 48px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 1200px;
+  padding: 24px 0;
+}
+
+.followContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.followContainer h3 {
+  font-size: 32px;
+  padding: 12px 0;
+}
+
+.followContainer a {
+  text-decoration: none;
+  color: var(--color-black);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.instagram {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 6px 0;
+}
+
+.instagram svg {
+  margin-right: 12px;
+  color: var(--color-black);
+  transition: 1s;
+}
+
+.instagram svg:hover {
+  color: #e4405f;
+}
+
+.facebook {
+  display: flex;
+  align-items: center;
+  padding: 6px 0 12px 0;
+}
+
+.facebook svg {
+  margin-right: 12px;
+  color: var(--color-black);
+  transition: 1s;
+}
+
+.facebook svg:hover {
+  color: #1877f2;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  padding: 12px;
+}
+
+.contactContainer h3 {
+  font-size: 32px;
+  padding: 12px 0;
+}
+
+.contactContainer a {
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--color-black);
+  font-weight: 600;
+}
+
+.phoneNumber {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 6px 0;
+}
+
+.mailAddress {
+  display: flex;
+  align-items: center;
+  padding: 6px 0 12px 0;
+}
+
+.addressContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 300px;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.addressContainer h3 {
+  font-size: 32px;
+  padding: 12px 0 40px 0;
+}
+
+.addressContainer p {
+  font-size: 24px;
+  padding: 0px 0 42px 0;
+}
+
+.findUsContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  padding: 12px;
+}
+
+.findUsContainer h3 {
+  font-size: 32px;
+  padding: 12px 0 25px 0;
+}
+
+.findUsContainer a {
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--color-black);
+  font-weight: 600;
+}
+
+.googleMaps {
+  padding: 0 0 30px 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .addressContainer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .followContainer h3 {
+    font-size: 28px;
+  }
+
+  .followContainer a {
+    font-size: 20px;
+  }
+
+  .contactContainer h3 {
+    font-size: 28px;
+  }
+
+  .contactContainer a {
+    font-size: 20px;
+  }
+
+  .findUsContainer h3 {
+    font-size: 28px;
+  }
+
+  .findUsContainer a {
+    font-size: 20px;
+  }
+
+  .googleMaps {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footerContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .googleMaps {
+    max-width: 180px;
+  }
+}

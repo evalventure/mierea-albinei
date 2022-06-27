@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./Components/Header/Header";
 import LandingSection from "./Components/LandingSection/LandingSection";
 import Products from "./Components/Products/Products";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <LandingSection />
       <Products />
+      <Footer />
     </>
   );
 }

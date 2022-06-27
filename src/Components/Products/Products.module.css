@@ -179,7 +179,7 @@
     font-size: 24px;
   }
   .filterContainer p {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .productDiv h3 {
@@ -192,7 +192,7 @@
   }
 
   .infoText {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -211,6 +211,14 @@
 
   .filterInfoContainer {
     justify-content: center;
+  }
+
+  .filterContainer h3 {
+    font-size: 20px;
+  }
+
+  .filterContainer p {
+    font-size: 18px;
   }
 }
 

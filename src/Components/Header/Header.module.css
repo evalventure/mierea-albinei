@@ -71,6 +71,7 @@ header {
   .hamburgerMenu {
     display: flex;
     cursor: pointer;
+    padding: 0 24px;
   }
 
   .containerHeader {
