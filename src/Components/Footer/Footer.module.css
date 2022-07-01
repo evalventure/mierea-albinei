@@ -18,14 +18,14 @@
 }
 
 .followContainer h3 {
-  font-size: 32px;
+  font-size: 28px;
   padding: 12px 0;
 }
 
 .followContainer a {
   text-decoration: none;
   color: var(--color-black);
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -69,12 +69,12 @@
 }
 
 .contactContainer h3 {
-  font-size: 32px;
+  font-size: 28px;
   padding: 12px 0;
 }
 
 .contactContainer a {
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: none;
   color: var(--color-black);
   font-weight: 600;
@@ -102,12 +102,12 @@
 }
 
 .addressContainer h3 {
-  font-size: 32px;
+  font-size: 28px;
   padding: 12px 0 40px 0;
 }
 
 .addressContainer p {
-  font-size: 24px;
+  font-size: 20px;
   padding: 0px 0 42px 0;
 }
 
@@ -119,12 +119,12 @@
 }
 
 .findUsContainer h3 {
-  font-size: 32px;
+  font-size: 28px;
   padding: 12px 0 25px 0;
 }
 
 .findUsContainer a {
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: none;
   color: var(--color-black);
   font-weight: 600;
@@ -142,31 +142,40 @@
 
 @media screen and (max-width: 900px) {
   .followContainer h3 {
-    font-size: 28px;
+    font-size: 20px;
+    text-align: center;
   }
 
   .followContainer a {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .contactContainer h3 {
-    font-size: 28px;
+    font-size: 20px;
+    text-align: center;
   }
 
   .contactContainer a {
-    font-size: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .phoneNumber {
+    text-align: center;
   }
 
   .findUsContainer h3 {
-    font-size: 28px;
+    font-size: 20px;
+    text-align: center;
   }
 
   .findUsContainer a {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .googleMaps {
     max-width: 200px;
+    text-align: center;
   }
 }
 
@@ -179,5 +188,11 @@
 
   .googleMaps {
     max-width: 180px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footerSection {
+    padding: 24px 24px;
   }
 }

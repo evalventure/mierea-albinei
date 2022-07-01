@@ -26,12 +26,8 @@ const Header = () => {
   return (
     <header>
       <section className={s.headerSection}>
-        <div className={s.containerHeader} id="#containerHeader">
-          <div
-            onClick={menuClick}
-            className={s.hamburgerMenu}
-            id="#hamburgerMenu"
-          >
+        <div className={s.containerHeader}>
+          <div onClick={menuClick} className={s.hamburgerMenu}>
             <AiOutlineMenu />
           </div>
 

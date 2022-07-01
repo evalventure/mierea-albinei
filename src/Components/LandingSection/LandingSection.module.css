@@ -7,6 +7,22 @@
   /* background-color: orange; */
   max-width: 1200px;
   margin: auto;
+  position: relative;
+}
+
+.landingPictureDiv {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 180px;
+  right: 0px;
+  max-height: 500px;
+  /* background-color: #000; */
+}
+
+.cakePic {
+  max-width: 500px;
+  max-height: 500px;
 }
 
 .textContainer {
@@ -42,11 +58,11 @@
 .buttonContainer button {
   width: 120px;
   height: 40px;
-  background-color: #a06235;
+  background-color: #f3a446;
   border-radius: 6px;
   border: none;
   font-weight: 700;
-  transition: 1s;
+  transition: color 0.2s, background-color 0.2s;
   font-size: 16px;
   cursor: pointer;
 }
@@ -109,6 +125,10 @@
   .textContainer {
     padding-top: 50px;
   }
+
+  .landingContainer {
+    position: static;
+  }
 }
 
 @media all and (min-width: 600px) {
@@ -118,6 +138,10 @@
 }
 
 @media all and (max-width: 600px) {
+  .landingSection {
+    padding: 24px 24px;
+  }
+
   .addressContainer {
     max-width: 150px;
   }
@@ -148,7 +172,7 @@
 
 @media all and (min-width: 800px) {
   .locationContainer a {
-    font-size: 24px;
+    font-size: 16px;
   }
 
   .buttonContainer button {
@@ -157,12 +181,12 @@
     font-size: 22px;
   }
   .textContainer h1 {
-    font-size: 60px;
+    font-size: 54px;
     line-height: 64px;
   }
 
   .textContainer p {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
@@ -170,5 +194,26 @@
   .textContainer h1 {
     font-size: 80px;
     line-height: 82px;
+  }
+
+  .textContainer p {
+    font-size: 22px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .cakePic {
+    max-width: 350px;
+    max-height: 350px;
+  }
+
+  .landingPictureDiv {
+    top: 150px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .cakePic {
+    display: none;
   }
 }

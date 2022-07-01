@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./Products.module.css";
 import { BsClockHistory } from "react-icons/bs";
+import prajitura1 from "../../images/prajitura1.png";
 
 const Shop = () => {
   return (
@@ -13,7 +14,7 @@ const Shop = () => {
           <div className={s.filterInfoContainer}>
             <div className={s.filterContainer}>
               <h3>Filter by:</h3>
-              <p>Daily items</p>
+              <p className={s.filterItem}>Daily items</p>
               <p>Pastry</p>
               <p>Specialty</p>
             </div>
@@ -31,7 +32,7 @@ const Shop = () => {
         <div className={s.productsContainer}>
           <div className={s.productDiv}>
             <div className={s.productPicDiv}>
-              <div className={s.productPic}></div>
+              <img src={prajitura1} alt="cake pic" className={s.productPic} />
             </div>
             <div className={s.productInfoDiv}>
               <p className={s.productInfo}>i</p>
@@ -44,7 +45,7 @@ const Shop = () => {
           </div>
           <div className={s.productDiv}>
             <div className={s.productPicDiv}>
-              <div className={s.productPic}></div>
+              <img src={prajitura1} alt="cake pic" className={s.productPic} />
             </div>
             <div className={s.productInfoDiv}>
               <p className={s.productInfo}>i</p>
@@ -57,7 +58,7 @@ const Shop = () => {
           </div>
           <div className={s.productDiv}>
             <div className={s.productPicDiv}>
-              <div className={s.productPic}></div>
+              <img src={prajitura1} alt="cake pic" className={s.productPic} />
             </div>
             <div className={s.productInfoDiv}>
               <p className={s.productInfo}>i</p>
@@ -70,7 +71,7 @@ const Shop = () => {
           </div>
           <div className={s.productDiv}>
             <div className={s.productPicDiv}>
-              <div className={s.productPic}></div>
+              <img src={prajitura1} alt="cake pic" className={s.productPic} />
             </div>
             <div className={s.productInfoDiv}>
               <p className={s.productInfo}>i</p>
@@ -83,7 +84,7 @@ const Shop = () => {
           </div>
           <div className={s.productDiv}>
             <div className={s.productPicDiv}>
-              <div className={s.productPic}></div>
+              <img src={prajitura1} alt="cake pic" className={s.productPic} />
             </div>
             <div className={s.productInfoDiv}>
               <p className={s.productInfo}>i</p>
@@ -96,7 +97,7 @@ const Shop = () => {
           </div>
           <div className={s.productDiv}>
             <div className={s.productPicDiv}>
-              <div className={s.productPic}></div>
+              <img src={prajitura1} alt="cake pic" className={s.productPic} />
             </div>
             <div className={s.productInfoDiv}>
               <p className={s.productInfo}>i</p>
@@ -109,7 +110,7 @@ const Shop = () => {
           </div>
           <div className={s.productDiv}>
             <div className={s.productPicDiv}>
-              <div className={s.productPic}></div>
+              <img src={prajitura1} alt="cake pic" className={s.productPic} />
             </div>
             <div className={s.productInfoDiv}>
               <p className={s.productInfo}>i</p>
@@ -122,7 +123,7 @@ const Shop = () => {
           </div>
           <div className={s.productDiv}>
             <div className={s.productPicDiv}>
-              <div className={s.productPic}></div>
+              <img src={prajitura1} alt="cake pic" className={s.productPic} />
             </div>
             <div className={s.productInfoDiv}>
               <p className={s.productInfo}>i</p>

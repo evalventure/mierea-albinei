@@ -1,6 +1,7 @@
 import s from "./LandingSection.module.css";
 import { GrLocation } from "react-icons/gr";
 import { MdSlowMotionVideo } from "react-icons/md";
+import prajitura4 from "../../images/prajitura4.png";
 
 import React from "react";
 
@@ -34,6 +35,9 @@ const LandingSection = () => {
               <MdSlowMotionVideo />
             </a>
           </div>
+        </div>
+        <div className={s.landingPictureDiv}>
+          <img src={prajitura4} alt="platou prajituri" className={s.cakePic} />
         </div>
       </div>
     </section>
